@@ -1,0 +1,4 @@
+Things to do:
+Create a base "Game" class
+  Handles starting and ending the Game
+  
