@@ -1,3 +1,13 @@
+# Lobby
+  # Deposit
+  # Total
+  # Games
+  # Exit
+# Deposit  
+#   Add
+#   Withdraw
+
+
 class PlayerBankroll
   attr_accessor :wallet
 
@@ -23,4 +33,14 @@ class Player
     @bankroll = PlayerBankroll.new(start_amount)
   end
 end
+
+@player
+def player_name
+  puts 'What is your name?'
+  name = gets.strip
+  puts "Welcome #{name} To The Best Casino in the World!!!!"
+  @player = Player.new(name)
+end
+
+player_name
 
