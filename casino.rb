@@ -1,3 +1,4 @@
+
 class PlayerBankroll
   attr_accessor :wallet
 
