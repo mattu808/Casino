@@ -25,13 +25,3 @@ class Player
   end
 end
 
-@player
-def player_name
-  puts 'What is your name?'
-  name = gets.strip
-  puts "Welcome #{name} to the Best Casino in the World!!!!"
-  @player = Player.new(name)
-end
-
-player_name
-

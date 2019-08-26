@@ -1,6 +1,6 @@
 class Hi_low
 
-@@bet = 20
+@@bet = 50
 
 
 
@@ -58,7 +58,7 @@ def hi_low
   puts 'Make it count!!!'
   puts '_________________________________________________'  
   puts 'What number would you like to pick?'
-  puts @num
+  # puts @num
   loop do 
     user_answer = gets.chomp.to_i
     puts "You picked #{user_answer}.....Lets see if you are correct."
